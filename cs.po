@@ -5,23 +5,21 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.7.1-git\n"
+"Project-Id-Version: git\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-27 18:54+0100\n"
-"PO-Revision-Date: 2010-02-26 09:26+0100\n"
+"PO-Revision-Date: 2013-10-09 03:47+0100\n"
 "Last-Translator: Martin Tabačan <martin@tabacan.cz>\n"
 "Language-Team: Čeština <cs@li.org>\n"
-"Language: \n"
+"Language: cs_CZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Czech\n"
-"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: ../gui/backgroundwindow.py:24
-#, fuzzy
 msgid "Save as Default"
-msgstr "uložit jako výchozí"
+msgstr "Uložit jako výchozí"
 
 #: ../gui/backgroundwindow.py:26
 msgid "Background"
@@ -37,9 +35,8 @@ msgid "Color"
 msgstr "Barva"
 
 #: ../gui/backgroundwindow.py:52
-#, fuzzy
 msgid "Add color to Patterns"
-msgstr "přidat barvu do vzorů"
+msgstr "Přidat barvu do vzorů"
 
 #: ../gui/backgroundwindow.py:126
 msgid "Gdk-Pixbuf couldn't load \"{filename}\", and reported \"{error}\""
@@ -72,33 +69,28 @@ msgid ""
 msgstr ""
 
 #: ../gui/brushcreationwidget.py:44 ../gui/brushcreationwidget.py:67
-#, fuzzy
 msgid "(unnamed brush)"
-msgstr "Přejmenovat štětec"
+msgstr "(bezejmenný štětec)"
 
 #: ../gui/brushcreationwidget.py:52
-#, fuzzy
 msgid "Save Settings"
-msgstr "uložit nastavení"
+msgstr "Uložit nastavení"
 
 #: ../gui/brushcreationwidget.py:53
 msgid "Add As New"
 msgstr ""
 
 #: ../gui/brushcreationwidget.py:54
-#, fuzzy
 msgid "Edit Brush Icon"
-msgstr "Výběr štětce"
+msgstr "Změnit ikonu štětce"
 
 #: ../gui/brushcreationwidget.py:55
-#, fuzzy
 msgid "Rename..."
-msgstr "přejmenovat..."
+msgstr "Přejmenovat…"
 
 #: ../gui/brushcreationwidget.py:56
-#, fuzzy
 msgid "Remove..."
-msgstr "odstranit..."
+msgstr "Odstranit…"
 
 #: ../gui/brushcreationwidget.py:102 ../gui/brushcreationwidget.py:151
 msgid "No brush selected!"
@@ -148,7 +140,7 @@ msgstr ""
 
 #: ../gui/brushmanager.py:74
 msgid "Ink"
-msgstr ""
+msgstr "Inkoust"
 
 #: ../gui/brushmanager.py:75
 msgid "Classic"
@@ -176,11 +168,11 @@ msgstr ""
 
 #: ../gui/brushmanager.py:81
 msgid "Experimental"
-msgstr ""
+msgstr "Experimentální"
 
 #: ../gui/brushmanager.py:721
 msgid "Unknown Brush"
-msgstr ""
+msgstr "Neznámý štětec"
 
 #. (internal-name, display-name, description)
 #: ../gui/brushmodifier.py:53 ../lib/layer.py:17
@@ -192,9 +184,8 @@ msgid "Paint normally"
 msgstr ""
 
 #: ../gui/brushmodifier.py:57
-#, fuzzy
 msgid "Eraser"
-msgstr "guma"
+msgstr "Guma"
 
 #: ../gui/brushmodifier.py:58
 msgid "Eraser Mode: remove strokes using the current brush"
@@ -209,18 +200,16 @@ msgid "Lock Alpha: paint over existing strokes only, using the current brush"
 msgstr ""
 
 #: ../gui/brushmodifier.py:65
-#, fuzzy
 msgid "Colorize"
-msgstr "Barva"
+msgstr "Obarvit"
 
 #: ../gui/brushmodifier.py:66
 msgid "Colorize: alter Hue and Saturation with the current brush"
 msgstr ""
 
 #: ../gui/brushselectionwindow.py:35
-#, fuzzy
 msgid "Brushes"
-msgstr "Klávesa pro štětec"
+msgstr "Štětce"
 
 #: ../gui/brushselectionwindow.py:253
 msgid ""
@@ -231,42 +220,34 @@ msgid ""
 msgstr ""
 
 #: ../gui/brushselectionwindow.py:465
-#, fuzzy
 msgid "New Group..."
-msgstr "Nová skupina..."
+msgstr "Nová skupina…"
 
 #: ../gui/brushselectionwindow.py:467
-#, fuzzy
 msgid "Rename Group..."
-msgstr "Přejmenovat skupinu..."
+msgstr "Přejmenovat skupinu…"
 
 #: ../gui/brushselectionwindow.py:468
-#, fuzzy
 msgid "Delete Group"
-msgstr "Vymazat skupinu..."
+msgstr "Smazat skupinu…"
 
 #: ../gui/brushselectionwindow.py:469
-#, fuzzy
 msgid "Export Group..."
-msgstr "Hlášení..."
+msgstr "Exportovat skupinu…"
 
 #: ../gui/brushselectionwindow.py:471
-#, fuzzy
 msgid "Import Brushes..."
-msgstr "Importovat sadu štětců..."
+msgstr "Importovat štětce…"
 
 #: ../gui/brushselectionwindow.py:473
-#, fuzzy
 msgid "Get More Brushes..."
-msgstr "Obnovit štětec %d"
+msgstr "Stáhnout více štětců…"
 
 #: ../gui/brushselectionwindow.py:493
-#, fuzzy
 msgid "Create Group"
 msgstr "Vytvořit skupinu"
 
 #: ../gui/brushselectionwindow.py:498
-#, fuzzy
 msgid "Rename Group"
 msgstr "Přejmenovat skupinu"
 
@@ -275,13 +256,12 @@ msgid "A group with this name already exists!"
 msgstr "Skupina s tímto názvem již existuje!"
 
 #: ../gui/brushselectionwindow.py:507
-#, fuzzy
 msgid "Export Brushes"
-msgstr "Importovat sadu štětců..."
+msgstr "Exportovat štětce…"
 
 #: ../gui/brushselectionwindow.py:508 ../gui/drawwindow.py:809
 msgid "MyPaint brush package (*.zip)"
-msgstr "MyPaint sada štětců (*.zip)"
+msgstr "Sada štětců pro MyPaint (*.zip)"
 
 #: ../gui/brushselectionwindow.py:514
 #, python-format
@@ -289,19 +269,16 @@ msgid "Really delete group %s?"
 msgstr "Opravdu smazat skupinu %s?"
 
 #: ../gui/brushselectionwindow.py:517
-#, fuzzy
 msgid "This group can not be deleted (try to empty it first)."
-msgstr "Tato skupina nemůže být vymazána (zkuste ji nejprve vyprázdnit)."
+msgstr "Tato skupina nemůže být smazána (zkuste ji nejprve vyprázdnit)."
 
 #: ../gui/brushsettingswindow.py:31
-#, fuzzy
 msgid "Brush Settings Editor"
-msgstr "Nastavení štětců"
+msgstr "Editor nastavení štětců"
 
 #: ../gui/brushsettingswindow.py:56
-#, fuzzy
 msgid "Back to settings"
-msgstr "Nastavení štětců"
+msgstr "Zpět k nastavení"
 
 #. Live update (goes to the end)
 #: ../gui/brushsettingswindow.py:64
@@ -314,7 +291,6 @@ msgid "Basic"
 msgstr ""
 
 #: ../gui/brushsettingswindow.py:102
-#, fuzzy
 msgid "Opacity"
 msgstr "Krytí:"
 
@@ -329,7 +305,7 @@ msgstr "šmouha"
 
 #: ../gui/brushsettingswindow.py:105
 msgid "Speed"
-msgstr ""
+msgstr "Rychlost"
 
 #: ../gui/brushsettingswindow.py:106
 msgid "Tracking"
@@ -341,11 +317,11 @@ msgstr "Tah"
 
 #: ../gui/brushsettingswindow.py:109
 msgid "Custom"
-msgstr "Náhodné"
+msgstr "Vlastní"
 
 #: ../gui/brushsettingswindow.py:138
 msgid "Reset to default value"
-msgstr ""
+msgstr "Nastavit výchozí hodnotu"
 
 #: ../gui/brushsettingswindow.py:143
 msgid "No additional configuration"
@@ -363,7 +339,7 @@ msgstr "Upravit vstupní hodnoty pomocí grafů"
 
 #: ../gui/buttonmap.py:262
 msgid "Action"
-msgstr ""
+msgstr "Akce"
 
 #: ../gui/buttonmap.py:277
 msgid "Button press"
@@ -385,7 +361,7 @@ msgstr ""
 
 #: ../gui/buttonmap.py:449
 msgid "Action:"
-msgstr ""
+msgstr "Akce:"
 
 #: ../gui/buttonmap.py:460
 msgid "Button press:"
@@ -621,14 +597,12 @@ msgid "An HSV cube which can be rotated to show different planar slices."
 msgstr ""
 
 #: ../gui/colors/hsvtriangle.py:41
-#, fuzzy
 msgid "HSV Triangle"
-msgstr "Barevný trojúhelník..."
+msgstr "HSV trojúhelník"
 
 #: ../gui/colors/hsvtriangle.py:45
-#, fuzzy
 msgid "The standard GTK color selector"
-msgstr "MyPaint návrhář barev"
+msgstr "Standardní GTK výběr barev"
 
 #: ../gui/colors/hsvwheel.py:91
 msgid "HSV wheel"
@@ -644,9 +618,8 @@ msgid "GIMP palette file (*.gpl)"
 msgstr ""
 
 #: ../gui/colors/palette.py:420 ../gui/colors/palette.py:476
-#, fuzzy
 msgid "All files (*)"
-msgstr "Soubor"
+msgstr "Všechny soubory (*)"
 
 #: ../gui/colors/paletteview.py:62
 msgid "Palette properties"
@@ -654,26 +627,23 @@ msgstr ""
 
 #: ../gui/colors/paletteview.py:72
 msgid "Palette"
-msgstr ""
+msgstr "Paleta"
 
 #: ../gui/colors/paletteview.py:77
 msgid "Set the color from a loadable, editable palette."
 msgstr ""
 
 #: ../gui/colors/paletteview.py:123
-#, fuzzy
 msgid "Palette Editor"
-msgstr "Gimp palety (*.gpl)"
+msgstr "Editor palet"
 
 #: ../gui/colors/paletteview.py:158
-#, fuzzy
 msgid "Load from a GIMP palette file"
-msgstr "Uložit paletu jako..."
+msgstr "Načíst z palety GIMPu"
 
 #: ../gui/colors/paletteview.py:159
-#, fuzzy
 msgid "Save to a GIMP palette file"
-msgstr "uložit jako výchozí"
+msgstr "Uložit do palety GIMPu"
 
 #: ../gui/colors/paletteview.py:160
 msgid "Add a new empty swatch"
@@ -689,9 +659,8 @@ msgid "Remove all swatches"
 msgstr ""
 
 #: ../gui/colors/paletteview.py:172
-#, fuzzy
 msgid "Name:"
-msgstr "Název"
+msgstr "Název:"
 
 #: ../gui/colors/paletteview.py:174
 msgid "Name or description for this palette"
@@ -699,16 +668,15 @@ msgstr ""
 
 #: ../gui/colors/paletteview.py:182
 msgid "Columns:"
-msgstr ""
+msgstr "Sloupce:"
 
 #: ../gui/colors/paletteview.py:183 ../gui/colors/paletteview.py:184
 msgid "Number of columns"
-msgstr ""
+msgstr "Počet sloupců"
 
 #: ../gui/colors/paletteview.py:197
-#, fuzzy
 msgid "Color name:"
-msgstr "Něvrhář barev..."
+msgstr "Název barvy:"
 
 #: ../gui/colors/paletteview.py:198
 msgid "Current colour's name"
@@ -720,14 +688,12 @@ msgid "Empty palette slot"
 msgstr "Gimp palety (*.gpl)"
 
 #: ../gui/colors/paletteview.py:362
-#, fuzzy
 msgid "Load palette"
-msgstr "Uložit paletu jako..."
+msgstr "Načíst paletu"
 
 #: ../gui/colors/paletteview.py:373
-#, fuzzy
 msgid "Save palette"
-msgstr "uložit nastavení"
+msgstr "Uložit paletu"
 
 #: ../gui/colors/paletteview.py:541
 msgid ""
@@ -775,9 +741,8 @@ msgid "HCY Luma (Y')"
 msgstr ""
 
 #: ../gui/colorwindow.py:26
-#, fuzzy
 msgid "Colors"
-msgstr "Barva"
+msgstr "Barvy"
 
 #: ../gui/dialogs.py:54 ../gui/layerswindow.py:78
 msgid "Name"
@@ -789,30 +754,27 @@ msgstr ""
 
 #: ../gui/dialogs.py:98 ../gui/dialogs.py:156
 msgid "Replace"
-msgstr ""
+msgstr "Nahradit"
 
 #: ../gui/dialogs.py:101 ../gui/dialogs.py:159
-#, fuzzy
 msgid "Rename"
-msgstr "Přejmenovat štětec"
+msgstr "Přejmenovat"
 
 #: ../gui/dialogs.py:104
 msgid "Replace all"
-msgstr ""
+msgstr "Nahradit vše"
 
 #: ../gui/dialogs.py:106
-#, fuzzy
 msgid "Rename all"
-msgstr "Přejmenovat štětec"
+msgstr "Přejmenovat vše"
 
 #: ../gui/dialogs.py:121
-#, fuzzy
 msgid "Imported brush"
-msgstr "Importovat sadu štětců..."
+msgstr "Importovatovaný štětec"
 
 #: ../gui/dialogs.py:122
 msgid "Existing brush"
-msgstr ""
+msgstr "Existující štětec"
 
 #: ../gui/dialogs.py:124
 #, python-format
@@ -820,6 +782,8 @@ msgid ""
 "<b>A brush named `%s' already exists.</b>\n"
 "Do you want to replace it, or should the new brush be renamed?"
 msgstr ""
+"<b>Štětec s názvem `%s' už existuje.</b>\n"
+"Chcete ho nahradit, nebo nový štětec přejmenovat?"
 
 #: ../gui/dialogs.py:147
 msgid "Overwrite brush group?"
@@ -829,14 +793,13 @@ msgstr ""
 msgid ""
 "<b>A group named `{groupname}' already exists.</b>\n"
 "Do you want to replace it, or should the new group be renamed?\n"
-"If you replace it, the brushes may be moved to a group called `"
-"{deleted_groupname}'."
+"If you replace it, the brushes may be moved to a group called "
+"`{deleted_groupname}'."
 msgstr ""
 
 #: ../gui/dialogs.py:257
-#, fuzzy
 msgid "Import brush package?"
-msgstr "Importovat sadu štětců..."
+msgstr "Importovat sadu štětců?"
 
 #: ../gui/dialogs.py:269
 #, python-format
@@ -845,9 +808,8 @@ msgstr ""
 
 #. Quick brush changer
 #: ../gui/dialogs.py:359 ../gui/toolbar.py:355
-#, fuzzy
 msgid "Change Brush"
-msgstr "Změnit barvu"
+msgstr "Změnit štětec"
 
 #: ../gui/document.py:240
 #, python-format
@@ -857,12 +819,12 @@ msgstr "Obnovit štětec %d"
 #: ../gui/document.py:242
 #, python-format
 msgid "Save to Brush %d"
-msgstr "Uložit mezi štětce %d"
+msgstr "Uložit jako štětec %d"
 
 #: ../gui/document.py:482
 #, python-format
 msgid "Copy of %s"
-msgstr ""
+msgstr "Kopie %s"
 
 #: ../gui/document.py:485
 #, python-format
@@ -870,14 +832,13 @@ msgid "Copy of Untitled layer #%d"
 msgstr ""
 
 #: ../gui/document.py:492
-#, fuzzy
 msgid "Layer Name"
-msgstr "Vrstvy"
+msgstr "Název vrstvy"
 
 #: ../gui/document.py:837
-#, fuzzy, python-format
+#, python-format
 msgid "Undo %s"
-msgstr "Zpět"
+msgstr "Zpět %s"
 
 #: ../gui/document.py:839
 msgid "Undo"
@@ -886,9 +847,10 @@ msgstr "Zpět"
 #: ../gui/document.py:846
 #, fuzzy, python-format
 msgid "Redo %s"
-msgstr "Odvolat zpět"
+msgstr "Znovu %s"
 
 #: ../gui/document.py:848
+#, fuzzy
 msgid "Redo"
 msgstr "Odvolat zpět"
 
@@ -917,14 +879,12 @@ msgid "Fullscreen"
 msgstr "Celá obrazovka"
 
 #: ../gui/drawwindow.py:727
-#, fuzzy
 msgid "Gimp Palette Format"
-msgstr "Gimp palety (*.gpl)"
+msgstr "Paleta GIMPu (*.gpl)"
 
 #: ../gui/drawwindow.py:728
-#, fuzzy
 msgid "All Files"
-msgstr "Soubor"
+msgstr "Všechny soubory"
 
 #. FIXME: should do this periodically, not only on quit
 #: ../gui/drawwindow.py:781
@@ -940,15 +900,15 @@ msgid "Import brush package..."
 msgstr "Importovat sadu štětců..."
 
 #: ../gui/drawwindow.py:820
-#, fuzzy
 msgid ""
 "Copyright (C) 2005-2012\n"
 "Martin Renold and the MyPaint Development Team"
 msgstr ""
-"Copyright (C) 2005-2009\n"
+"Copyright (C) 2005-2013\n"
 "Martin Renold a Mypaint Development team"
 
 #: ../gui/drawwindow.py:824
+#, fuzzy
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
@@ -1001,17 +961,15 @@ msgstr "štětce, programování"
 
 #: ../gui/drawwindow.py:862
 msgid "desktop icon"
-msgstr "ikona plochy"
+msgstr "ikona"
 
 #: ../gui/drawwindow.py:863 ../gui/drawwindow.py:865
-#, fuzzy
 msgid "patterns"
-msgstr "Vzor"
+msgstr "vzory"
 
 #: ../gui/drawwindow.py:866 ../gui/drawwindow.py:867
-#, fuzzy
 msgid "tool icons"
-msgstr "ikona plochy"
+msgstr "ikony nástrojů"
 
 #: ../gui/drawwindow.py:869
 msgid "translator-credits"
@@ -1019,7 +977,8 @@ msgstr ""
 
 #: ../gui/drawwindow.py:877
 msgid "Move your mouse over a menu entry, then press the key to assign."
-msgstr "Posuňte myš na položku menu a pak stiskněte klávesu pro přiřazení."
+msgstr ""
+"Posuňte myš na položku menu a pak stiskněte klávesu, kterou chcete přiřadit."
 
 #: ../gui/drawwindow.py:879
 #, fuzzy
@@ -1039,6 +998,7 @@ msgstr ""
 "normálních štětců nikdy nezmění barvu. "
 
 #: ../gui/drawwindow.py:885
+#, fuzzy
 msgid ""
 "There is a tutorial available on the MyPaint homepage. It explains some "
 "features which are hard to discover yourself.\n"
@@ -1054,10 +1014,12 @@ msgstr ""
 "atd.) jsou přístupné jako tooltipy. Přesuňte myš na náhled a uvidíte je.\n"
 
 #: ../gui/filehandling.py:59
+#, fuzzy
 msgid "Open Recent"
 msgstr "Naposledy otevřené"
 
 #: ../gui/filehandling.py:59
+#, fuzzy
 msgid "Open Recent files"
 msgstr "Naposledy otevřené"
 
@@ -1096,6 +1058,7 @@ msgstr "PNG průhledný (*.png)"
 
 #. 3
 #: ../gui/filehandling.py:90
+#, fuzzy
 msgid "Multiple PNG transparent (*.XXX.png)"
 msgstr "Složený PNG průhledný (*.XXX.png)"
 
@@ -1105,23 +1068,20 @@ msgid "JPEG 90% quality (*.jpg; *.jpeg)"
 msgstr "JPEG 90% kvalita (*.jpg; *.jpeg)"
 
 #: ../gui/filehandling.py:132
-#, fuzzy
 msgid "Save..."
-msgstr "Uložit.."
+msgstr "Uložit…"
 
 #: ../gui/filehandling.py:143
-#, fuzzy
 msgid "Format to save as:"
-msgstr "Není možné uložit: %s"
+msgstr "Uložit ve formátu: %s"
 
 #: ../gui/filehandling.py:169
 msgid "Confirm"
-msgstr ""
+msgstr "Potvrdit"
 
 #: ../gui/filehandling.py:169
-#, fuzzy
 msgid "Really continue?"
-msgstr "Opravdu ukončit?"
+msgstr "Opravdu pokračovat?"
 
 #: ../gui/filehandling.py:178
 #, fuzzy, python-format
@@ -1138,6 +1098,7 @@ msgstr[0] "Toto zruší %d vteřina neuložených kreseb."
 msgstr[1] "Toto zruší %d vteřin neuložených kreseb."
 
 #: ../gui/filehandling.py:191
+#, fuzzy
 msgid "_Save as Scrap"
 msgstr "_Uložit další část"
 
@@ -1146,12 +1107,11 @@ msgid "Open..."
 msgstr "Otevřít..."
 
 #: ../gui/filehandling.py:375
-#, fuzzy
 msgid "Open Scratchpad..."
-msgstr "Otevřít další část"
+msgstr "Otevřít skicák…"
 
 #: ../gui/filehandling.py:680
-#, python-format
+#, fuzzy, python-format
 msgid "There are no scrap files named \"%s\" yet."
 msgstr "Neexistuje žádný soubor s částí nazvaný \"%s\"."
 
@@ -1165,25 +1125,23 @@ msgstr ""
 
 #: ../gui/framewindow.py:281
 msgid "Height:"
-msgstr ""
+msgstr "Výška:"
 
 #: ../gui/framewindow.py:283
 msgid "Width:"
-msgstr ""
+msgstr "Šířka:"
 
 #: ../gui/framewindow.py:285
 msgid "Resolution:"
-msgstr ""
+msgstr "Rozlišení"
 
 #: ../gui/framewindow.py:287
-#, fuzzy
 msgid "Color:"
-msgstr "Barva"
+msgstr "Barva:"
 
 #: ../gui/framewindow.py:307
-#, fuzzy
 msgid "Frame Color"
-msgstr "změnit odstín barvy"
+msgstr "Barva rámu"
 
 #: ../gui/framewindow.py:356
 #, fuzzy
@@ -1210,11 +1168,11 @@ msgstr ""
 
 #: ../gui/framewindow.py:374
 msgid "Enabled"
-msgstr ""
+msgstr "Zapnuto"
 
 #: ../gui/framewindow.py:469
 msgid "inch"
-msgstr ""
+msgstr "palce"
 
 #: ../gui/framewindow.py:470
 msgid "cm"
@@ -1233,16 +1191,19 @@ msgid "Details"
 msgstr "Detaily"
 
 #: ../gui/gtkexcepthook.py:127
+#, fuzzy
 msgid "Bug Detected"
 msgstr "Zjišťování chyb"
 
 #. if gtk.check_version (2, 4, 0) is not None:
 #. dialog.set_has_separator (False)
 #: ../gui/gtkexcepthook.py:131
+#, fuzzy
 msgid "<big><b>A programming error has been detected.</b></big>"
 msgstr "<big><b>Byla zjištěna programová chyba.</b></big>"
 
 #: ../gui/gtkexcepthook.py:132
+#, fuzzy
 msgid ""
 "It probably isn't fatal, but the details should be reported to the "
 "developers nonetheless."
@@ -1260,17 +1221,15 @@ msgstr ""
 
 #: ../gui/inputtestwindow.py:20
 msgid "Input Device Test"
-msgstr ""
+msgstr "Test vstupního zařízení"
 
 #: ../gui/inputtestwindow.py:47
-#, fuzzy
 msgid "(no pressure)"
-msgstr "Přítlak"
+msgstr "(žádný přítlak)"
 
 #: ../gui/inputtestwindow.py:48
-#, fuzzy
 msgid "Pressure:"
-msgstr "Přítlak"
+msgstr "Přítlak:"
 
 #: ../gui/inputtestwindow.py:50
 msgid "(no tilt)"
@@ -1281,13 +1240,12 @@ msgid "Tilt:"
 msgstr ""
 
 #: ../gui/inputtestwindow.py:56
-#, fuzzy
 msgid "(no device)"
-msgstr "(bezejména)"
+msgstr "(žádné zařízení)"
 
 #: ../gui/inputtestwindow.py:57
 msgid "Device:"
-msgstr ""
+msgstr "Zařízení:"
 
 #: ../gui/layerswindow.py:41
 msgid "Layers"
@@ -1329,7 +1287,7 @@ msgstr ""
 #: ../gui/layerswindow.py:212
 #, python-format
 msgid "Layer opacity: %d%%"
-msgstr ""
+msgstr "Krytí vrstvy:"
 
 #: ../gui/layerswindow.py:302
 #, python-format
@@ -1338,11 +1296,11 @@ msgstr ""
 
 #: ../gui/layout.py:628
 msgid "Collapse"
-msgstr ""
+msgstr "Sbalit"
 
 #: ../gui/layout.py:629
 msgid "Expand"
-msgstr ""
+msgstr "Rozbalit"
 
 #: ../gui/layout.py:703
 msgid "Snap out"
@@ -1350,7 +1308,7 @@ msgstr ""
 
 #: ../gui/layout.py:705
 msgid "Close"
-msgstr ""
+msgstr "Zavřít"
 
 #: ../gui/linemode.py:21
 #, fuzzy
@@ -1434,9 +1392,8 @@ msgstr ""
 
 #. TRANSLATORS: Graph y-axis label
 #: ../gui/preferenceswindow.py:80
-#, fuzzy
 msgid "Brush Pressure"
-msgstr "Přítlak"
+msgstr "Přítlak štětce"
 
 #. TRANSLATORS: Graph x-axis label
 #: ../gui/preferenceswindow.py:90
@@ -1456,7 +1413,7 @@ msgstr ""
 
 #: ../gui/preferenceswindow.py:131
 msgid "Buttons"
-msgstr ""
+msgstr "Tlačítka"
 
 #: ../gui/preferenceswindow.py:140
 msgid "Saving"
@@ -1468,7 +1425,7 @@ msgstr ""
 
 #: ../gui/preferenceswindow.py:150
 msgid "Default file format:"
-msgstr ""
+msgstr "Standardní formát souboru:"
 
 #: ../gui/preferenceswindow.py:165
 #, fuzzy
@@ -1476,11 +1433,11 @@ msgid "<b>Save Next Scrap</b>"
 msgstr "Otevřít další část"
 
 #: ../gui/preferenceswindow.py:169
-#, fuzzy
 msgid "Path and filename prefix:"
-msgstr "Cesta a přípona souboru pro \"Uložení další části\""
+msgstr "Cesta a předpona souboru:"
 
 #: ../gui/preferenceswindow.py:184
+#, fuzzy
 msgid "View"
 msgstr "Pohled"
 
@@ -1489,43 +1446,40 @@ msgid "<b>Default View</b>"
 msgstr ""
 
 #: ../gui/preferenceswindow.py:194
-#, fuzzy
 msgid "Default zoom:"
-msgstr "Základní velikost slotu"
+msgstr "Výchozí zoom:"
 
 #: ../gui/preferenceswindow.py:207
 msgid "High quality zoom (may result in slow scrolling)"
 msgstr ""
 
 #: ../gui/preferenceswindow.py:214
-#, fuzzy
 msgid "<b>Fullscreen</b>"
-msgstr "Celá obrazovka"
+msgstr "<b>Celá obrazovka</b>"
 
 #: ../gui/preferenceswindow.py:218
 msgid "Hide menu bar"
-msgstr ""
+msgstr "Schovat menu"
 
 #: ../gui/preferenceswindow.py:223
 msgid "Hide toolbar"
-msgstr ""
+msgstr "Schovat panel nástrojů"
 
 #: ../gui/preferenceswindow.py:228
 msgid "Hide tools"
-msgstr ""
+msgstr "Schovat nástroje"
 
 #: ../gui/scratchwindow.py:28
 msgid "Scratchpad"
-msgstr ""
+msgstr "Skicák"
 
 #: ../gui/scratchwindow.py:41
 msgid "Load Scratchpad"
-msgstr ""
+msgstr "Nahrát skicák"
 
 #: ../gui/scratchwindow.py:43
-#, fuzzy
 msgid "Save Scratchpad as..."
-msgstr "Uložit paletu jako..."
+msgstr "Uložit skicák jako..."
 
 #: ../gui/scratchwindow.py:45
 msgid "Revert Scratchpad"
@@ -1533,7 +1487,7 @@ msgstr ""
 
 #: ../gui/scratchwindow.py:47
 msgid "New Scratchpad"
-msgstr ""
+msgstr "Nový skicák"
 
 #: ../gui/spinbox.py:32
 #, fuzzy
@@ -1585,9 +1539,8 @@ msgid "Subwindows"
 msgstr ""
 
 #: ../gui/toolbar.py:69
-#, fuzzy
 msgid "MyPaint"
-msgstr "O MyPaintu"
+msgstr "MyPaint"
 
 #: ../gui/toolbar.py:84
 msgid "Current Color"
@@ -1599,7 +1552,6 @@ msgid "Current Brush"
 msgstr "Přejmenovat štětec"
 
 #: ../gui/toolbar.py:88
-#, fuzzy
 msgid "Brush Settings"
 msgstr "Nastavení štětců"
 
@@ -1682,7 +1634,7 @@ msgstr ""
 
 #: ../lib/command.py:153
 msgid "Painting"
-msgstr ""
+msgstr "Malování"
 
 #: ../lib/command.py:169
 #, fuzzy
@@ -1754,18 +1706,16 @@ msgid "Make Layer Invisible"
 msgstr "Viditelnost vrstvy"
 
 #: ../lib/command.py:473
-#, fuzzy
 msgid "Lock Layer"
-msgstr "Vrstvy"
+msgstr "Zamknout vrstvu"
 
 #: ../lib/command.py:475
 msgid "Unlock Layer"
-msgstr ""
+msgstr "Odemknout vrstvu"
 
 #: ../lib/command.py:478
-#, fuzzy
 msgid "Change Layer Visibility"
-msgstr "Viditelnost vrstvy"
+msgstr "Změnit viditelnost vrstvy"
 
 #: ../lib/command.py:506
 msgid "Change Layer Blending Mode"
@@ -1779,7 +1729,7 @@ msgid ""
 "Do you have enough space left on the device?"
 msgstr ""
 "Není možné uložit: %s\n"
-"Máme dostatek volného místa na zařízení?"
+"Máte na zařízení dostatek volného místa?"
 
 #: ../lib/document.py:516 ../lib/document.py:519
 #, python-format
@@ -1809,7 +1759,7 @@ msgstr ""
 #: ../lib/document.py:557
 #, python-format
 msgid "Unknown file format extension: %s"
-msgstr "Neznámá přípona souboru: %s"
+msgstr "Neznámá přípona formátu souboru: %s"
 
 #: ../lib/layer.py:18
 msgid "The top layer only, without blending colors."
@@ -1817,7 +1767,7 @@ msgstr ""
 
 #: ../lib/layer.py:19
 msgid "Multiply"
-msgstr ""
+msgstr "Násobení"
 
 #: ../lib/layer.py:20
 msgid ""
@@ -1828,7 +1778,7 @@ msgstr ""
 #: ../lib/layer.py:22
 #, fuzzy
 msgid "Screen"
-msgstr "Celá obrazovka"
+msgstr "Screen"
 
 #: ../lib/layer.py:23
 msgid ""
@@ -1838,7 +1788,7 @@ msgstr ""
 
 #: ../lib/layer.py:25
 msgid "Overlay"
-msgstr ""
+msgstr "Překrytí"
 
 #: ../lib/layer.py:26
 msgid ""
@@ -1888,7 +1838,7 @@ msgstr ""
 
 #: ../lib/layer.py:40
 msgid "Hard Light"
-msgstr ""
+msgstr "Tvrdé světlo"
 
 #: ../lib/layer.py:41
 msgid "Similar to shining a harsh spotlight onto the backdrop."
@@ -1896,7 +1846,7 @@ msgstr ""
 
 #: ../lib/layer.py:42
 msgid "Soft Light"
-msgstr ""
+msgstr "Měkké světlo"
 
 #: ../lib/layer.py:43
 msgid "Like shining a diffuse spotlight onto the backdrop."
@@ -1904,7 +1854,7 @@ msgstr ""
 
 #: ../lib/layer.py:44
 msgid "Difference"
-msgstr ""
+msgstr "Rozdíl"
 
 #: ../lib/layer.py:45
 msgid "Subtracts the darker color from the lighter of the two."
@@ -1920,7 +1870,7 @@ msgstr ""
 
 #: ../lib/layer.py:48
 msgid "Hue"
-msgstr ""
+msgstr "Odstín"
 
 #: ../lib/layer.py:49
 msgid ""
@@ -1930,7 +1880,7 @@ msgstr ""
 
 #: ../lib/layer.py:51
 msgid "Saturation"
-msgstr ""
+msgstr "Sytost"
 
 #: ../lib/layer.py:52
 msgid ""
@@ -1962,7 +1912,7 @@ msgstr "Nový"
 
 #: ../po/tmp/mypaint.xml.h:2
 msgid "Start with a new blank canvas"
-msgstr ""
+msgstr "Začít s novým prázdným plátnem"
 
 #: ../po/tmp/mypaint.xml.h:3
 #, fuzzy
@@ -1982,7 +1932,7 @@ msgstr "Naposledy otevřené"
 
 #: ../po/tmp/mypaint.xml.h:6
 msgid "Open the last file you saved"
-msgstr ""
+msgstr "Otevřít poslední uložený soubor"
 
 #: ../po/tmp/mypaint.xml.h:7
 msgctxt "Menu|File|"
@@ -2013,7 +1963,7 @@ msgstr "Uložit jako..."
 
 #: ../po/tmp/mypaint.xml.h:12
 msgid "Save to a file with a new name"
-msgstr ""
+msgstr "Uložit do souboru s novým názvem"
 
 #: ../po/tmp/mypaint.xml.h:13
 #, fuzzy
@@ -2022,9 +1972,8 @@ msgid "Export..."
 msgstr "Hlášení..."
 
 #: ../po/tmp/mypaint.xml.h:14
-#, fuzzy
 msgid "Export to a file"
-msgstr "Exportovat paletu..."
+msgstr "Exportovat do souboru"
 
 #: ../po/tmp/mypaint.xml.h:15
 #, fuzzy
@@ -2506,13 +2455,11 @@ msgid "Disable GTK Double Buffering"
 msgstr "Zakázat dvojnásobné přetečení GTK"
 
 #: ../po/tmp/mypaint.xml.h:110
-#, fuzzy
 msgctxt "Menu|"
 msgid "File"
 msgstr "Soubor"
 
 #: ../po/tmp/mypaint.xml.h:111
-#, fuzzy
 msgctxt "Menu|File|"
 msgid "Quit"
 msgstr "Konec"
@@ -2523,13 +2470,11 @@ msgid "Frame Enabled"
 msgstr ""
 
 #: ../po/tmp/mypaint.xml.h:113
-#, fuzzy
 msgctxt "Menu|"
 msgid "Edit"
 msgstr "Upravit"
 
 #: ../po/tmp/mypaint.xml.h:114
-#, fuzzy
 msgctxt "Menu|"
 msgid "Color"
 msgstr "Barva"
@@ -2540,13 +2485,11 @@ msgid "Adjust Color"
 msgstr ""
 
 #: ../po/tmp/mypaint.xml.h:116
-#, fuzzy
 msgctxt "Menu|Color|"
 msgid "Pick Color"
 msgstr "Vybrat barvu"
 
 #: ../po/tmp/mypaint.xml.h:117
-#, fuzzy
 msgctxt "Menu|Color|"
 msgid "Color History"
 msgstr "Historie barev"
@@ -2613,7 +2556,6 @@ msgid "Previous color in the palette"
 msgstr ""
 
 #: ../po/tmp/mypaint.xml.h:130
-#, fuzzy
 msgctxt "Menu|"
 msgid "Layer"
 msgstr "Vrstvy"
@@ -2700,7 +2642,6 @@ msgid "Saturation Spread for Current Color"
 msgstr ""
 
 #: ../po/tmp/mypaint.xml.h:145
-#, fuzzy
 msgctxt "Menu|Brush|"
 msgid "Brush"
 msgstr "Štětec"
@@ -2833,9 +2774,8 @@ msgid "Set and adjust a frame for the canvas"
 msgstr ""
 
 #: ../po/tmp/mypaint.xml.h:169
-#, fuzzy
 msgid "Layers Window"
-msgstr "Vrstvy"
+msgstr "Okno vrstev"
 
 #: ../po/tmp/mypaint.xml.h:170
 msgid "Edit and rearrange layers"
@@ -2935,7 +2875,7 @@ msgstr ""
 
 #: ../po/tmp/mypaint.xml.h:190
 msgid "Show menu bar"
-msgstr ""
+msgstr "Zobrazit menu"
 
 #: ../po/tmp/mypaint.xml.h:191
 msgctxt "Menu|View|Toolbars|"
@@ -2944,7 +2884,7 @@ msgstr ""
 
 #: ../po/tmp/mypaint.xml.h:192
 msgid "Show toolbar"
-msgstr ""
+msgstr "Zobrazit panel nástrojů"
 
 #: ../po/tmp/mypaint.xml.h:193
 msgctxt "Menu|View|Toolbars|"
@@ -3026,20 +2966,18 @@ msgid "Zoom View"
 msgstr "Přiblížit"
 
 #: ../po/tmp/mypaint.xml.h:209
-#, fuzzy
 msgctxt "Toolbar|"
 msgid "Zoom"
-msgstr "Přiblížit"
+msgstr "Zoom"
 
 #: ../po/tmp/mypaint.xml.h:210
 msgid "Zoom View: zoom the canvas by clicking and dragging"
 msgstr ""
 
 #: ../po/tmp/mypaint.xml.h:211
-#, fuzzy
 msgctxt "Menu|View|"
 msgid "Zoom"
-msgstr "Přiblížit"
+msgstr "Zoom"
 
 #: ../po/tmp/mypaint.xml.h:212
 msgctxt "Menu|Edit|Current Mode|"
@@ -3087,10 +3025,9 @@ msgid "Ellipses and Circles"
 msgstr ""
 
 #: ../po/tmp/mypaint.xml.h:221
-#, fuzzy
 msgctxt "Menu|Edit|Current Mode|"
 msgid "Move Layer"
-msgstr "Odstranit"
+msgstr "Přesunout vrstvu"
 
 #: ../po/tmp/mypaint.xml.h:222
 msgid "Move Layer: reposition the current layer on the canvas"
@@ -3131,8 +3068,8 @@ msgstr ""
 
 #, fuzzy
 #~ msgid ""
-#~ "The background %s was ignored because it is the wrong size. Only (N*%d)x"
-#~ "(M*%d) is supported."
+#~ "The background %s was ignored because it is the wrong size. Only (N*"
+#~ "%d)x(M*%d) is supported."
 #~ msgstr ""
 #~ "Pozadí %s bylo ignorováno, protože má špatnou velikost. Podporováno je "
 #~ "pouze (N*%d)x(M*%d)."
@@ -3297,4 +3234,3 @@ msgstr ""
 #, fuzzy
 #~ msgid "Brush List Editor"
 #~ msgstr "Seznam štětců"
-
