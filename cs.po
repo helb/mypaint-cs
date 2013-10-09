@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: git\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-27 18:54+0100\n"
-"PO-Revision-Date: 2013-10-09 03:47+0100\n"
-"Last-Translator: Martin Tabačan <martin@tabacan.cz>\n"
-"Language-Team: Čeština <cs@li.org>\n"
+"PO-Revision-Date: 2013-10-09 03:51+0100\n"
+"Last-Translator: Jiří Helebrant <helb@helb.cz>\n"
 "Language: cs_CZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Language-Team: \n"
 
 #: ../gui/backgroundwindow.py:24
 msgid "Save as Default"
@@ -1287,7 +1288,7 @@ msgstr ""
 #: ../gui/layerswindow.py:212
 #, python-format
 msgid "Layer opacity: %d%%"
-msgstr "Krytí vrstvy:"
+msgstr "Krytí vrstvy: %d%%"
 
 #: ../gui/layerswindow.py:302
 #, python-format
